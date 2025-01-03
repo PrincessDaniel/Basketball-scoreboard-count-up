@@ -88,12 +88,12 @@ function updateTime(){
     displayMinutes = minutes
    }
    
-   if (displaySeconds === 11) {
+   if (displayMinutes === 24) {
     pause()
    }
-   else if (displaySeconds === 15) {
+   else if (displayMinutes === 48) {
      endGame()
-     displayTime.textContent += "Time Out"
+     // displayTime.textContent += "Time Out"
    }
    displayTime.textContent =`${displayMinutes}:${displaySeconds}`
 }
