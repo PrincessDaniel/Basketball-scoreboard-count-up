@@ -1,0 +1,92 @@
+@font-face {
+    src: url("CursedTimerUlil-Aznm.ttf");
+    font-family: Cursed Timer ULiL;
+}
+
+body {
+    margin: 0;
+    height: 385px;
+    width: 575px;
+    background-image: url("/basketball-background.png");
+    background-color: #1B244A;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+h3 {
+    color: #EEEEEE;
+    margin: 68px auto;
+    font-family: Verdana;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 36px;
+    text-shadow: 3px 3px #080001;
+    ;
+}
+
+.score-text {
+    color: #F94F6D;
+    text-align: center;
+    font-family: Cursed Timer ULiL;
+    font-size: 90px;
+    margin: 18px;
+}
+
+.board {
+    width: 155px;
+    height: 120px;
+    background-color: #080001;
+    margin: -47px auto 21px auto;
+    border-radius: 5px;
+}
+
+button {
+    width: 45px;
+    height: 45px;
+    border: 1px solid #9AABD8;
+    background-color: inherit;
+    color: #9AABD8;
+    border-radius: 5px;
+    font-family: Cursed Timer ULiL;
+    text-shadow: 1px 2px #080001;
+}
+
+#game-timer-btn {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 25px;
+    justify-content: space-around;
+}
+
+.game-timer-btn {
+    width: 125px;
+    padding: px 30px;
+    margin-top: 15px;
+}
+
+h1 {
+    background-color: transparent;
+    color: #F94F6D;
+    font-family: Cursed Timer ULiL;
+    text-shadow: 1px 2px #080001;
+    font-weight: bold;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+    list-style: none;
+    border: 1px solid #F94F6D;
+    border-radius: 5px;
+    width: 45px;
+    height: 45px;
+    padding: 2px 45px;
+    margin: 20px auto;
+    margin-bottom: -45px;
+
+}

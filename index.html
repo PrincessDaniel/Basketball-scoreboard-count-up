@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <h1 id="display" role="timer">00:00</h1>
+        <div class="container">
+            <div>
+                <h3 id="home">HOME</h3>
+            </div>
+            <div>
+                <h3 id="guest">GUEST</h3>
+            </div>
+        </div>
+        <div class="container">
+            <div class="board">
+                <p class="score-text" id="home-score">0</p>
+            </div>
+            <div class="board">
+                <p class="score-text" id="guest-score">0</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="button-container">
+                <button onclick="addOneToHome()">+1</button>
+                <button onclick="addTwoToHome()">+2</button>
+                <button onclick=" addThreeToHome()">+3</button>
+            </div>
+            <div>
+                <button onclick="addOneToGuest()">+1</button>
+                <button onclick="addTwoToGuest()">+2</button>
+                <button onclick="addThreeToGuest()">+3</button>
+            </div>
+        </div>
+        <div id="game-timer-btn">
+            <button class="game-timer-btn" id="new-game" onclick="newGamePlay()">New Game</button>
+            <button class="game-timer-btn" id="continue-game" onclick="continueGame()">Half Time</button>
+            <button class="game-timer-btn" id="end-game" onclick="reset()">Reset Game</button>
+        </div>
+        <script src="index.js"></script>
+    </body></html>
